@@ -1,0 +1,25 @@
+{
+  "name": "esgi-todolist-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "latest",
+    "bluebird": "latest",
+    "body-parser": "latest",
+    "connect-mongo": "latest",
+    "cookie-parser": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "fs-extra": "latest",
+    "glob": "latest",
+    "lodash": "latest",
+    "mongoose": "4.3.0",
+    "mongoose-timestamp": "latest",
+    "multer": "latest",
+    "serve-favicon": "latest",
+    "yargs": "latest"
+  }
+}
