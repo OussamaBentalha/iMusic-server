@@ -2,6 +2,9 @@ require('./global');
 var express = require('express');
 var api = express();
 
+var path = require('path');
+global.appRoot = path.resolve(__dirname);
+
 (function init(){
     api.use(express.static('storage'));
     require('./settings')(api);
