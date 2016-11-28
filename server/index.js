@@ -9,7 +9,6 @@ global.appRoot = path.resolve(__dirname);
     api.use(express.static('storage'));
     require('./settings')(api);
     require('./models')(api);
-    require('./middlewares')(api);
     require('./actions')(api);
     require('./routes')(api);
 }());
